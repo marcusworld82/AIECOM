@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Ecom Agency &mdash; Turn Your Store Into a Sales Machine</title>
+  <meta name="description" content="We transform your e-commerce store's visuals, content, copy, and ad creative into a high-converting sales machine. No production costs. No hiring." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb--1"></div>
+  <div class="orb orb--2"></div>
+  <div class="orb orb--3"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__wrap">
+      <a href="#hero" class="nav__logo">AI<span>Ecom</span></a>
+      <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact" class="nav__pill">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero__glow"></div>
+      <div class="wrap">
+        <div class="hero__inner">
+          <div class="chip reveal">E-Commerce Growth Engine</div>
+          <h1 class="hero__h1 reveal">
+            Your Store Is <em>Leaving<br />Money</em> on the Table
+          </h1>
+          <p class="hero__lead reveal">
+            Right now, your competitors are selling <strong>3.2x more units</strong> than you. Better photos. Better videos. Better product stories. Better ad creative. We fix that. In 30 days, we transform your entire storefront &mdash; product images, descriptions, social content, ad creative &mdash; into a high-converting sales machine. No production costs. No hiring. No waiting.
+          </p>
+          <div class="hero__ctas reveal">
+            <a href="#pricing" class="btn btn--accent">See Pricing</a>
+            <a href="#services" class="btn btn--outline">View Services</a>
+          </div>
+          <div class="hero__stats reveal">
+            <div class="hero__stat">
+              <span class="hero__stat-num">287</span>
+              <span class="hero__stat-label">Stores Transformed</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">$44.7M</span>
+              <span class="hero__stat-label">Revenue Generated</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">4.9/5</span>
+              <span class="hero__stat-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAIN -->
+    <section class="pain section" id="pain">
+      <div class="wrap">
+        <div class="s-head reveal">
+          <div class="s-label">The Problem</div>
+          <h2 class="s-title">79% of Sellers Lose Sales<br />Because of Weak Presentation</h2>
+          <p class="s-sub">Not traffic. Not pricing. Not the algorithm. The way your products look and read is killing your conversions.</p>
+        </div>
+        <div class="pain__grid">
+          <article class="pain__card glass reveal">
+            <div class="pain__icon">&#128248;</div>
+            <h3>Amateur Visuals</h3>
+            <p>Phone camera shots, bad lighting, no lifestyle imagery. Buyers don't trust what they can't clearly see.</p>
+          </article>
+          <article class="pain__card glass reveal">
+            <div class="pain__icon">&#128196;</div>
+            <h3>Generic Copy</h3>
+            <p>"Available in multiple colors." Nobody buys from that. Descriptions that don't sell leave money on the table every single day.</p>
+          </article>
+          <article class="pain__card glass reveal">
+            <div class="pain__icon">&#128247;</div>
+            <h3>Dead Social Channels</h3>
+            <p>Competitors post daily. You post whenever. Zero audience growth. Zero social traffic. Zero repeat momentum.</p>
+          </article>
+          <article class="pain__card glass reveal">
+            <div class="pain__icon">&#128200;</div>
+            <h3>Ad Fatigue</h3>
+            <p>Same ads running for months. ROAS drops 40%+. You know it but don't have time to make new creative. The cycle continues.</p>
+          </article>
+        </div>
+        <div class="pain__cost glass reveal">
+          <div class="pain__cost-row">
+            <span class="pain__cost-num">$2k&ndash;5k</span>
+            <span class="pain__cost-text">Lost monthly from cart abandonment due to poor product photos</span>
+          </div>
+          <div class="pain__cost-div"></div>
+          <div class="pain__cost-row">
+            <span class="pain__cost-num">40%</span>
+            <span class="pain__cost-text">ROAS drop from ad fatigue when creative never refreshes</span>
+          </div>
+          <div class="pain__cost-div"></div>
+          <div class="pain__cost-row">
+            <span class="pain__cost-num">$8k&ndash;15k</span>
+            <span class="pain__cost-text">Total monthly revenue lost per store from all combined issues</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="wrap">
+        <div class="s-head s-head--center reveal">
+          <div class="s-label">What We Solve</div>
+          <h2 class="s-title">Five Core Problems.<br />Five Complete Solutions.</h2>
+        </div>
+        <div class="services__list">
+
+          <article class="svc glass reveal">
+            <div class="svc__num">01</div>
+            <div class="svc__body">
+              <div class="svc__tag">Product Photography</div>
+              <h3>Product Images Don't Convert</h3>
+              <p class="svc__problem">Phone shots. Bad lighting. No lifestyle. No premium feel. Visitors don't trust what they're buying.</p>
+              <div class="svc__divider"></div>
+              <p class="svc__solution">We create studio-quality AI-generated product photography, lifestyle imagery, UGC-style shots, multiple angles, seasonal variations, and luxury brand aesthetics that justify higher prices.</p>
+              <div class="svc__impact">
+                <span class="svc__stat">+45%</span><span>conversion rate increase</span>
+                <span class="svc__stat">-28%</span><span>cart abandonment drop</span>
+                <span class="svc__stat">+12%</span><span>average order value</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="svc glass reveal">
+            <div class="svc__num">02</div>
+            <div class="svc__body">
+              <div class="svc__tag">Content Creation</div>
+              <h3>No Content = No Traffic</h3>
+              <p class="svc__problem">Post once a week. No audience growth. No social sales momentum. Competitors post daily. You post whenever.</p>
+              <div class="svc__divider"></div>
+              <p class="svc__solution">30 Reels. 30 TikToks. 20 product videos. 15 UGC pieces. 25 ad creative variations. 10 carousel posts. Captions for all of it. One batch. One delivery. You post daily.</p>
+              <div class="svc__impact">
+                <span class="svc__stat">3.2x</span><span>impressions in 60 days</span>
+                <span class="svc__stat">+18%</span><span>follower growth/month</span>
+                <span class="svc__stat">22%</span><span>new traffic from social</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="svc glass reveal">
+            <div class="svc__num">03</div>
+            <div class="svc__body">
+              <div class="svc__tag">Listing Copy</div>
+              <h3>Product Listings Are Boring</h3>
+              <p class="svc__problem">&ldquo;Premium cotton t-shirt available in multiple colors.&rdquo; Nobody buys from that. No benefits. No emotion. No SEO.</p>
+              <div class="svc__divider"></div>
+              <p class="svc__solution">High-converting benefit-focused descriptions, SEO-optimized titles, emotional storytelling, objection-handling copy, scarcity language, and mobile-optimized formatting. 100 listings in 5 days.</p>
+              <div class="svc__impact">
+                <span class="svc__stat">+34%</span><span>conversion on search</span>
+                <span class="svc__stat">+19%</span><span>repeat purchase rate</span>
+                <span class="svc__stat">+23%</span><span>SEO traffic lift</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="svc glass reveal">
+            <div class="svc__num">04</div>
+            <div class="svc__body">
+              <div class="svc__tag">AI Production</div>
+              <h3>Can't Afford Professional Production</h3>
+              <p class="svc__problem">One photoshoot costs $5k-12k. Models, photographers, editors, videographers. It's out of reach for most sellers.</p>
+              <div class="svc__divider"></div>
+              <p class="svc__solution">AI-generated product photography. AI influencers and models in your products. 30-second commercials. Unboxing videos. Lifestyle scenes. Seasonal collections. All at 5% of production cost.</p>
+              <div class="svc__impact">
+                <span class="svc__stat">2.8x</span><span>higher engagement</span>
+                <span class="svc__stat">5%</span><span>of traditional cost</span>
+                <span class="svc__stat">100%</span><span>brand aligned</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="svc glass reveal">
+            <div class="svc__num">05</div>
+            <div class="svc__body">
+              <div class="svc__tag">Ad Creative</div>
+              <h3>Ads Burn Out Too Fast</h3>
+              <p class="svc__problem">Same Facebook and TikTok ads for 2-3 months. Creative fatigue kills ROAS. You know it. You just don't have time to fix it.</p>
+              <div class="svc__divider"></div>
+              <p class="svc__solution">12 ad variations per month. Multiple hooks, visuals, angles. A/B testing sets. Seasonal variations. Never the same creative running more than 2 weeks. Your ROAS stays high.</p>
+              <div class="svc__impact">
+                <span class="svc__stat">-18%</span><span>cost per acquisition</span>
+                <span class="svc__stat">+26%</span><span>click-through rate</span>
+                <span class="svc__stat">+34%</span><span>ad lifespan</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT TABLE -->
+    <section class="impact section" id="impact">
+      <div class="wrap">
+        <div class="s-head reveal">
+          <div class="s-label">Combined Impact</div>
+          <h2 class="s-title">What Solving All Five Problems<br />Does to Your Revenue</h2>
+        </div>
+        <div class="impact__table glass reveal">
+          <div class="impact__row impact__row--head">
+            <div>Problem</div><div>Result</div><div>Revenue Impact</div>
+          </div>
+          <div class="impact__row">
+            <div>Weak product photos</div><div>45% higher conversion</div><div class="accent">+$4,500/mo</div>
+          </div>
+          <div class="impact__row">
+            <div>No social content</div><div>22% new traffic from social</div><div class="accent">+$2,200/mo</div>
+          </div>
+          <div class="impact__row">
+            <div>Boring listings</div><div>34% higher search conversion</div><div class="accent">+$3,400/mo</div>
+          </div>
+          <div class="impact__row">
+            <div>Can&rsquo;t afford production</div><div>Premium positioning</div><div class="accent">+$1,200/mo</div>
+          </div>
+          <div class="impact__row">
+            <div>Ad fatigue</div><div>18% lower CAC</div><div class="accent">+$1,800/mo</div>
+          </div>
+          <div class="impact__row impact__row--total">
+            <div>Total Monthly Impact</div><div></div><div>+$13,100/month</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF COUNTERS -->
+    <section class="proof section" id="results">
+      <div class="proof__aurora"></div>
+      <div class="wrap">
+        <div class="s-head s-head--center reveal">
+          <div class="s-label">The Proof</div>
+          <h2 class="s-title">Real Stores. Real Numbers.</h2>
+        </div>
+        <div class="proof__grid">
+          <article class="proof__card glass reveal">
+            <div class="proof__emoji">&#127978;</div>
+            <div class="proof__num" data-target="287" data-prefix="">0</div>
+            <div class="proof__label">E-Commerce Stores Transformed</div>
+          </article>
+          <article class="proof__card glass reveal">
+            <div class="proof__emoji">&#128200;</div>
+            <div class="proof__num" data-target="13100" data-prefix="$" data-suffix="/mo">$0</div>
+            <div class="proof__label">Average Revenue Increase Per Store</div>
+          </article>
+          <article class="proof__card glass reveal">
+            <div class="proof__emoji">&#128176;</div>
+            <div class="proof__num" data-target="447" data-prefix="$" data-suffix="M+">$0</div>
+            <div class="proof__label">Total Revenue Generated for Clients</div>
+          </article>
+          <article class="proof__card glass reveal">
+            <div class="proof__emoji">&#11088;</div>
+            <div class="proof__num" data-target="49" data-prefix="" data-suffix="/5">0</div>
+            <div class="proof__label">Average Client Satisfaction Rating</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section" id="testimonials">
+      <div class="wrap">
+        <div class="s-head reveal">
+          <div class="s-label">What Sellers Say</div>
+          <h2 class="s-title">From Struggling to Scaling</h2>
+        </div>
+        <div class="testi__grid">
+          <article class="testi glass reveal">
+            <div class="testi__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;We went from $8k/month to $23k/month in 90 days. Better photos. Better copy. Fresh content daily. Best decision we made.&rdquo;</blockquote>
+            <div class="testi__author">
+              <div class="testi__ava">JM</div>
+              <div><strong>Jennifer M.</strong><span>Shopify &bull; Beauty Products &bull; Austin TX</span></div>
+            </div>
+          </article>
+          <article class="testi glass reveal">
+            <div class="testi__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;My ads were at 1.2x ROAS. Now we&rsquo;re at 2.8x with fresh creative. Same ad spend. Triple the revenue. Incredible.&rdquo;</blockquote>
+            <div class="testi__author">
+              <div class="testi__ava">DK</div>
+              <div><strong>David K.</strong><span>Amazon &bull; Fitness Equipment &bull; Denver CO</span></div>
+            </div>
+          </article>
+          <article class="testi glass reveal">
+            <div class="testi__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;We couldn&rsquo;t afford a photoshoot. Your AI-generated product photos look incredible. Conversion rate jumped 38% in the first month.&rdquo;</blockquote>
+            <div class="testi__author">
+              <div class="testi__ava">LT</div>
+              <div><strong>Lisa T.</strong><span>Etsy &bull; Home Decor &bull; Portland OR</span></div>
+            </div>
+          </article>
+          <article class="testi glass reveal">
+            <div class="testi__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Followers went from 1,200 to 8,400 in 60 days. Sales from social went from $300/mo to $4,200/mo. The content batch completely changed our game.&rdquo;</blockquote>
+            <div class="testi__author">
+              <div class="testi__ava">MR</div>
+              <div><strong>Marcus R.</strong><span>Shopify &bull; Streetwear &bull; Los Angeles CA</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+      <div class="wrap">
+        <div class="s-head s-head--center reveal">
+          <div class="s-label">Pricing</div>
+          <h2 class="s-title">Pick the Package That<br />Matches Where You Are</h2>
+          <p class="s-sub">Every package includes full creative deliverables. No contracts. Cancel anytime.</p>
+        </div>
+        <div class="pricing__grid">
+
+          <article class="plan glass reveal">
+            <div class="plan__name">Starter</div>
+            <div class="plan__price"><span class="plan__dollar">$</span>499<span class="plan__mo">/mo</span></div>
+            <div class="plan__best">Best for new sellers testing the service</div>
+            <ul class="plan__features">
+              <li>Product photo enhancement (up to 50 products)</li>
+              <li>2 weeks of social content (16 posts)</li>
+              <li>Basic product description rewrites (20 listings)</li>
+              <li>2 ad creative variations per week</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--full">Get Started</a>
+          </article>
+
+          <article class="plan plan--featured glass reveal">
+            <div class="plan__badge">Most Popular</div>
+            <div class="plan__name">Growth</div>
+            <div class="plan__price"><span class="plan__dollar">$</span>999<span class="plan__mo">/mo</span></div>
+            <div class="plan__best">Best for stores doing $15k&ndash;50k/month</div>
+            <ul class="plan__features">
+              <li>Full product photoshoot (100+ products, all angles)</li>
+              <li>4 weeks of daily social content (120+ posts)</li>
+              <li>Full product listing optimization (100 listings, SEO)</li>
+              <li>4 ad creative variations per week + A/B testing sets</li>
+              <li>One strategy call per month</li>
+            </ul>
+            <a href="#contact" class="btn btn--accent btn--full">Get Started</a>
+          </article>
+
+          <article class="plan glass reveal">
+            <div class="plan__name">Scale</div>
+            <div class="plan__price"><span class="plan__dollar">$</span>1,999<span class="plan__mo">/mo</span></div>
+            <div class="plan__best">Best for stores doing $50k+/month</div>
+            <ul class="plan__features">
+              <li>Everything in Growth</li>
+              <li>Unlimited product photography</li>
+              <li>60 days of daily social content (180+ posts ahead)</li>
+              <li>Full catalog optimization + ongoing optimization</li>
+              <li>8 ad variations per week with performance analysis</li>
+              <li>Bi-weekly strategy calls</li>
+              <li>Custom brand guidelines implementation</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--full">Get Started</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="wrap">
+        <div class="s-head s-head--center reveal">
+          <div class="s-label">Get Started</div>
+          <h2 class="s-title">Ready to Turn Your Store<br />Into a Sales Machine?</h2>
+          <p class="s-sub">Book a free strategy call and we&rsquo;ll audit your store live and show you exactly what we&rsquo;d fix first.</p>
+        </div>
+        <div class="contact__cards reveal">
+          <a href="tel:+12166332029" class="contact__card glass">
+            <div class="contact__card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <strong>Call or Text</strong>
+            <span>(216) 633-2029</span>
+          </a>
+          <a href="https://cal.com/marcus-collins-qmojtk/video-listing-ai" target="_blank" rel="noopener noreferrer" class="contact__card glass contact__card--accent">
+            <div class="contact__card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <strong>Book a Strategy Call</strong>
+            <span>Free store audit included</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__inner glass">
+        <div class="footer__logo">AI<span>Ecom</span></div>
+        <p>&copy; 2026 AIEcom Agency. Built to scale e-commerce brands.</p>
+        <div class="footer__links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#contact">Contact</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
