@@ -1,28 +1,30 @@
-# AIEcom Agency Landing Page
+# AIEcom Redesign v2
 
-Full-production AI e-commerce agency landing page.
+Completely new layout direction for the AIECOM landing page.
+
+## What is different from v1
+- Sticky left side rail (replaces top nav)
+- Full-height split-panel hero with motion stage
+- Editorial service bands (not card grid)
+- Revenue impact board (not table)
+- Offset featured pricing card
+- Luxury black and gold palette (not violet)
+- Gold and green accent system
 
 ## Stack
-- Semantic HTML5
-- CSS3 (custom properties, Grid, Flexbox, clamp())
-- Vanilla JavaScript (Intersection Observer, canvas particles, animated counters)
-- Google Fonts: Space Grotesk + DM Sans
-- No build tools required
+- HTML5, CSS3 custom properties, Grid, clamp()
+- Vanilla JavaScript
+- No build tools
 
-## Deploy to Vercel
-1. Push repo to GitHub (already done)
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import `marcusworld82/AIECOM`
-4. Click **Deploy** — zero config needed
+## Deploy
+1. Connect `marcusworld82/AIECOM` to Vercel
+2. Keep `index.html` at root
+3. Click Deploy — zero config
 
-## Breakpoints
-- Mobile: 320px+
-- Tablet: 820px+
-- Desktop: 1100px+
-- Wide: 1240px+
+## Connectors
+- Cal.com booking link
+- Direct phone number
 
-## Replace Before Going Live
-- `tel:+12166332029` — confirm phone number is correct
-- Cal.com booking link in contact section — update if needed
-- Testimonial names/details — swap with real verified clients when available
-- Footer privacy/terms links — add real policy pages
+## Replace
+- Cal.com URL in contact section
+- Phone number if needed
